@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onp.FXMLDocumentController">
+    <children>
+      <Button layoutX="285.0" layoutY="145.0" mnemonicParsing="false" onAction="#handleONP" prefHeight="35.0" prefWidth="35.0" text="OK" />
+      <TextField fx:id="userInputField" layoutX="119.0" layoutY="145.0" prefHeight="35.0" />
+      <Label fx:id="reversePolishNotationLabel" alignment="TOP_CENTER" layoutX="84.0" layoutY="276.0" prefHeight="100.0" prefWidth="332.0" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="84.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="28.0" text="Odwrotna Notacja Polska" textAlignment="CENTER" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
